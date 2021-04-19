@@ -1,5 +1,5 @@
 html {
-    background-image: url("images/bdo-2.png");
+    background-image: url("images/bdo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -91,10 +91,25 @@ a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     margin: 0px;
-    color: goldenrod;
-    background-color: rgba(0,0,0,0.8);
+    color: white;
+    
 }
 
+
+.input {
+    width: 50%;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.6rem;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.8);
+    margin: 1px auto;
+    max-width: 250px;
+}
+
+div {
+    display: block;
+}
 
 
 @media screen and (min-width: 700px) {
@@ -110,21 +125,20 @@ a{
     }
 
     .buttons {
-        margin-top: 300px;
+        margin-top: 100px;
+        
     }
 
     #game-name {
         margin-bottom: 200px;
     }
 
-    .txt {
-        background-color: rgba(0,0,0,0.8);      
     
-    }
 
     .center-text {
         max-width: max-content;
         text-align: center;
         margin: 0 auto;
     }
+
 }
