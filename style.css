@@ -107,9 +107,6 @@ a{
     max-width: 250px;
 }
 
-div {
-    display: block;
-}
 
 
 @media screen and (min-width: 700px) {
